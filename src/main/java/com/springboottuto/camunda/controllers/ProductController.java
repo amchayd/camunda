@@ -18,7 +18,6 @@ public class ProductController {
 		products.add("Sumsung");
 		products.add("LG");
 		products.add("Lenevo");
-		products.add("Iphone");
 	}
 	@GetMapping("/product/{prd}")
 	public String displayProduct( @PathVariable("prd") String prd) {
