@@ -31,6 +31,7 @@ public class ProductController {
 		
 	}
 	
+	
 	@GetMapping("/product/add/{prd}")
 	public String addProduct( @PathVariable("prd") String prd) {
 		
@@ -40,5 +41,9 @@ public class ProductController {
 		
 		return "new :" + prd;
 		
+	}
+	
+	public void doSmth() {
+		//TO DO
 	}
 }
